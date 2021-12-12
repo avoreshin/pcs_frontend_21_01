@@ -1,0 +1,8 @@
+.login-page {
+  height: 100vh;
+  weight: 100%;
+  background-image: url("../../images/loginPageBack.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

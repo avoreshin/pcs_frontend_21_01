@@ -1,0 +1,67 @@
+
+.login-container{
+  font-family: 'Montserratrat',sans-serif;
+  color: #161516;
+  background-color: #FFFFFF;
+  padding: 36px 20px;
+}
+.login-container__form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.login-container__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 38px;
+  margin-bottom: 36px;
+}
+.login-container__input {
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 18px;
+  width:  420px;
+  height: 39px;
+  margin-bottom: 15px;
+  border: 1px solid #D58C51;
+  box-sizing: border-box;
+  border-radius: 61px;
+  color: #161516;
+}
+.login-container__input::placeholder {
+  color: #161516;
+}
+
+.agreement {
+  width: 420px;
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+  color: #301411;
+}
+input[type="checkbox"]{
+  display: none;
+}
+
+label::before{
+  margin-right: 9px;
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #D58C51;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+input[type="checkbox"]:checked + label::before{
+  content: '✓';
+  font-size: 20px;
+  color: #D58C51;
+  text-align: center;
+}
+
+

@@ -1,3 +1,11 @@
+@fontface {
+  font-family: 'Montserratrat', sans-serif;
+  src: url('https://fonts.google.com/specimen/Montserrat')
+}
+
+.body {
+  font-family: 'Montserratrat', sans-serif;
+}
 .App {
   text-align: center;
 }
