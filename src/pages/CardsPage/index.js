@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-
 import Card from "../../components/Card";
-import { data } from "../../data/cardsData";
-
 import "../CardsPage/CardsPage.css";
 
 export default function CardsPage(props) {
@@ -43,14 +40,22 @@ export default function CardsPage(props) {
 
     return (
         <div className="cards-container">
-            <div className="header">
-                <h3>Наша продукция</h3>
-                <Link to={'/basket'}>
-                    <div className="basket">
-                        {count} шт на сумму {price}₽
+            <header>
+                <div className={"wrapper__header"}>
+                    <div className="wrapper__header-title">
+                        <div className={"title__header"}>Наша продукция</div>
                     </div>
-                </Link>
-            </div>
+                    <Link style={{ textDecoration: 'none' }} to={'/basket'}>
+                    <div className={"wrapper__bas"}>
+
+                            <div className="basket__counter">
+                                {count} шт <br/>на сумму {price} ₽
+                            </div>
+                    </div>
+                        </Link>
+                </div>
+            </header>
+
             <div className="cards-list">
                 {cardsData.map(item => {
                     return (

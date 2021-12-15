@@ -4,10 +4,12 @@ import Login from '../../components/Login';
 
 import '../LoginPage/Loginpage.css';
 
-export default function LoginPage() {
-  return (
-    <div className={"login-page"}>
-      <Login/>
-    </div>
-  );
+function LoginPage() {
+    return (
+        <div>
+            <Login/>
+        </div>
+    )
 }
+
+export default LoginPage;

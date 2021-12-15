@@ -1,31 +1,44 @@
-.card-container {
+.card-container{
   border: 1px solid #D58C51;
   max-width:  270px;
   padding: 43px 20px 36px;
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
   flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 35px;
+  color: #FFFFFF;
 }
 
-.card__img {
+.card-container:hover{
+  color: #D58C51;
+}
+
+.card__img{
   margin-bottom: 31px;
 }
 
-.card__title {
+.card__title{
   font-size: 17px;
   font-weight: 500;
   margin-bottom: 13px;
 }
-.card__description {
+
+.card__description{
   font-weight: normal;
   font-size: 14px;
   margin-bottom: 63px;
 }
-.card__description_detail {
+
+.card__description_detail{
   display: flex;
   justify-content: space-between;
 }
+
 .card__weight{
   flex: 1;
+}
+
+.card__add-basket svg:hover{
+  stroke: #D58C51; fill: #D58C51;
 }
