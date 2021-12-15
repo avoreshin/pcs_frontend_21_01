@@ -18,11 +18,9 @@ export default function Card(props) {
             <div className={"card__title"}>{title}</div>
             <div className={"card__description"}>{description}</div>
             <div className={"card__description_detail"}>
-                <div className={"card__price"}>{price}</div> &nbsp;/&nbsp;
-                <div className={"card__weight"}>{weight}</div>
-                <div
-                    onClick={() => addFood(item)}
-                >
+                <div className={"card__price"}>{price} ₽</div> &nbsp;/&nbsp;
+                <div className={"card__weight"}>{weight} г.</div>
+                <div onClick={() => addFood(item)} className={'card__add-basket'}>
                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="15" cy="15" r="14.5" stroke="white"/>
                         <path d="M15 9.28564V20.3571" stroke="white" stroke-width="2" stroke-linecap="round"/>

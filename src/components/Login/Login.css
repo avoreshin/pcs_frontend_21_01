@@ -1,24 +1,37 @@
-
 .login-container{
   font-family: 'Montserratrat',sans-serif;
-  color: #161516;
-  background-color: #FFFFFF;
-  padding: 36px 20px;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 1080px;
+  padding: 358px 0 0;
+  background: url('../../images/loginPageBack.png') no-repeat;
 }
-.login-container__form {
+
+.login-container__wrapper{
+  color: #161516;
+  background: #FFFFFF;
+  width: 460px;
+  height: 340px;
+  margin: 0 auto;
+}
+
+.login-container__form{
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
-.login-container__title {
+
+.login-container__title{
   text-transform: uppercase;
   font-weight: bold;
   font-size: 31px;
   line-height: 38px;
   margin-bottom: 36px;
-}
-.login-container__input {
+  margin-top: 36px;
+  }
+
+.login-container__input{
   font-size: 16px;
   line-height: 20px;
   padding-left: 18px;
@@ -30,11 +43,12 @@
   border-radius: 61px;
   color: #161516;
 }
-.login-container__input::placeholder {
+
+.login-container__input::placeholder{
   color: #161516;
 }
 
-.agreement {
+.agreement{
   width: 420px;
   display: flex;
   margin-bottom: 15px;
@@ -43,6 +57,7 @@
   line-height: 13px;
   color: #301411;
 }
+
 input[type="checkbox"]{
   display: none;
 }
@@ -57,6 +72,7 @@ label::before{
   border-radius: 50%;
   vertical-align: middle;
 }
+
 input[type="checkbox"]:checked + label::before{
   content: '✓';
   font-size: 20px;
@@ -64,4 +80,16 @@ input[type="checkbox"]:checked + label::before{
   text-align: center;
 }
 
+.container__email-error{
+  margin-top: -16px;
+  color: red;
+  font-size: 14px;
+  line-height:16px;
+}
 
+.container__password-error{
+  margin-top: -16px;
+  color: red;
+  font-size: 14px;
+  line-height:16px;
+}
