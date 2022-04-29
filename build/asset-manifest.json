@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.99e0a18f.chunk.css",
+    "main.js": "/static/js/main.dff58301.chunk.js",
+    "main.js.map": "/static/js/main.dff58301.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8fb0632b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8fb0632b.js.map",
+    "static/js/2.c8192303.chunk.js": "/static/js/2.c8192303.chunk.js",
+    "static/js/2.c8192303.chunk.js.map": "/static/js/2.c8192303.chunk.js.map",
+    "static/js/3.eeba67a0.chunk.js": "/static/js/3.eeba67a0.chunk.js",
+    "static/js/3.eeba67a0.chunk.js.map": "/static/js/3.eeba67a0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.99e0a18f.chunk.css.map": "/static/css/main.99e0a18f.chunk.css.map",
+    "static/js/2.c8192303.chunk.js.LICENSE.txt": "/static/js/2.c8192303.chunk.js.LICENSE.txt",
+    "static/media/Group 182.22758b7c.svg": "/static/media/Group 182.22758b7c.svg",
+    "static/media/CardsPage.css": "/static/media/Group 71.38675d98.svg",
+    "static/media/Loginpage.css": "/static/media/loginPageBack.2afe9d9b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fb0632b.js",
+    "static/js/2.c8192303.chunk.js",
+    "static/css/main.99e0a18f.chunk.css",
+    "static/js/main.dff58301.chunk.js"
+  ]
+}
